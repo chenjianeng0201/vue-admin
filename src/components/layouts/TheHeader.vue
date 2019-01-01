@@ -9,7 +9,7 @@
       <el-dropdown-menu slot="dropdown" class="user-info-dropdown">
         <el-dropdown-item><a><i class="el-icon-info"></i>个人中心</a></el-dropdown-item>
         <el-dropdown-item><a><i class="el-icon-setting"></i>设置</a></el-dropdown-item>
-        <el-dropdown-item divided><a><i class="el-icon-error"></i>退出</a></el-dropdown-item>
+        <el-dropdown-item divided><router-link to="/auth/login"><i class="el-icon-error"></i>退出</router-link></el-dropdown-item>
       </el-dropdown-menu>
     </el-dropdown>
   </div>
